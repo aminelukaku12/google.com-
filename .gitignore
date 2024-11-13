@@ -1,0 +1,20 @@
+# Ignore .env files
+.env
+.env.local
+.env.*.local
+
+# Ignore the vendor folder (composer dependencies)
+/vendor
+
+# Ignore node_modules (npm dependencies)
+node_modules/
+
+# Ignore Laravel storage files (including encrypted files)
+storage/*.key
+
+# Ignore compiled files
+/public/storage
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
